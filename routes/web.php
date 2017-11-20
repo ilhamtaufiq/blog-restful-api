@@ -1,8 +1,15 @@
 <?php
 
+Route::get('/', function() {
+    return view('home'); //Homepage 
+});
+
+
 Route::get('/post', function () {
     return view('post.post');
 });
-Route::get('/', function() {
-    return view('welcome'); //Homepage 
+
+
+Route::get('/posts/{tag}', function () {
+    return view('posts.tag');
 });
