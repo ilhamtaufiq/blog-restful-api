@@ -1,0 +1,12 @@
+.container {
+  float: left;
+  width: span(9 of 12);
+  margin-left: gutter(of 3);
+  padding: 60px 0;
+}
+
+.article {
+  float: left;
+  width: span(10 of 12);
+  margin-left: span(1 of 6);
+}

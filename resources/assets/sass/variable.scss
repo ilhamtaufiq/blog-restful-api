@@ -1,0 +1,33 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+@import 'bower_components/susy/sass/susy';
+
+// Variables
+@import "variables";
+
+// Bootstrap
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+$header-color: #353535;
+$body-color: #515151;
+$body-color-light: #797979;
+
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+
+$anchor-color: #47b8e0;
+$anchor-font-weight: $font-weight-bold;
+
+$font-family-header: 'Raleway', sans-serif;
+$font-family-body: 'Lato', sans-serif;
+
+$susy: (
+  'columns': susy-repeat(4),
+  'gutters': 0.25,
+  'spread': 'narrow',
+  'container-spread': 'narrow',
+);
